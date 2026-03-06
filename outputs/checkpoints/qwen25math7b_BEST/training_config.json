@@ -1,0 +1,12 @@
+{
+  "model_name": "Qwen/Qwen2.5-Math-7B-Instruct",
+  "train_file": ".\\data\\processed\\production_dataset_v2.jsonl",
+  "epochs": 5,
+  "batch_size": 1,
+  "grad_accum": 4,
+  "lr": 0.00015,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "max_seq_len": 1536,
+  "quantization": "4-bit NF4 double-quant"
+}

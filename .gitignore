@@ -1,0 +1,63 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environment ──
+.venv/
+venv/
+ENV/
+
+# ── Model Weights (too large for Git) ──
+outputs/checkpoints/*/adapter_model.safetensors
+outputs/checkpoints/*/optimizer.pt
+outputs/checkpoints/*/training_args.bin
+outputs/checkpoints/*/rng_state.pth
+outputs/checkpoints/*/scheduler.pt
+outputs/checkpoints/qwen25math7b_prod_v2/
+outputs/checkpoints/qwen25math7b_qlora_competitive/
+outputs/checkpoints/qwen25math7b_mega_v3/
+outputs/checkpoints/*/checkpoint-*/
+
+# ── Large datasets (download via scripts) ──
+data/processed/open/
+data/processed/curriculum/
+data/processed/mega_dataset_v3.jsonl
+data/processed/pref*
+data/processed/preference*
+
+
+# ── HuggingFace cache ──
+.cache/
+*.lock
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ── Node (web UI) ──
+node_modules/
+apps/math-vision-ui/server/node_modules/
+apps/math-vision-ui/client/node_modules/
+
+# ── Temp ──
+*.log
+*.tmp
+
+# ── Gemini agent ──
+.gemini/
+.agent/
+.agents/
+_agent/
+_agents/

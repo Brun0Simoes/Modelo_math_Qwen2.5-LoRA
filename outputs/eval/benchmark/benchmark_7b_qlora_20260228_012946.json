@@ -1,0 +1,124 @@
+{
+  "accuracy_pct": 92.3,
+  "correct": 12,
+  "total": 13,
+  "results": [
+    {
+      "id": "ENEM-STAT-02",
+      "cat": "estatistica",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 31.515999999995984,
+      "response_preview": "Passo 1: Calcula a soma das notas: 6 + 7 + 8 + 9 + 10 = 40.\nPasso 2: Divide a soma (40) pelo número de alunos (5): 40 / 5 = 8.\nFinal answer: C (8)"
+    },
+    {
+      "id": "ENEM-PORC-01",
+      "cat": "aritmetica",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 32.609000000004016,
+      "response_preview": "Passo 1: Cálculo do desconto.\n20% de 250 = 250 * 20/100 = 50.\n\nPasso 2: Cálculo do preço After.\n250 - 50 = 200.\n\nFinal answer: C (200)"
+    },
+    {
+      "id": "ENEM-GEO-01",
+      "cat": "geometria",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 31.610000000000582,
+      "response_preview": "Passo 1: A area de um retângulo é dada por: A = C x L.\nPasso 2: Substituindo C = 30 e L = 20, temos: A = 30 x 20 = 600 m².\nFinal answer: D"
+    },
+    {
+      "id": "ENEM-ALG-01",
+      "cat": "algebra",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 28.389999999999418,
+      "response_preview": "Passo 1: C = 50 + 3x\nPasso 2: C = 50 + 3 * 40 = 50 + 120 = 170\nFinal answer: C (170)"
+    },
+    {
+      "id": "ENEM-PROP-01",
+      "cat": "aritmetica",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 30.093999999997322,
+      "response_preview": "Passo 1: 500 litros em 4 horas.\nPasso 2: 1250/500 = 2,5.\nPasso 3: 4 x 2,5 = 10.\nFinal answer: C (10)"
+    },
+    {
+      "id": "ENEM-PA-01",
+      "cat": "algebra",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 55.56300000000192,
+      "response_preview": "Passo 1: A formula do termo n do uma progressao aritmetica e: a_n = a_1 + (n-1)d, onde a_1 e o termo 1, d e a razao e n e o termo que se que é.\nPasso 2: Substituindo os termos do problem: a_1 = 3, d ="
+    },
+    {
+      "id": "OBMEP-N1-01",
+      "cat": "aritmetica",
+      "correct_letter": "B",
+      "answered": null,
+      "is_correct": false,
+      "time": 218.06199999999808,
+      "response_preview": "Passo 1: passo 2: passo 3: passo 4: passo 5: passo 6: passo 7: passo 8: passo 9: passo 10: passo 11: passo 12: passo 13: passo 14: passo 15: passo 16: passo 17: passo 18: passo 19: passo 20: passo 21:"
+    },
+    {
+      "id": "OBMEP-N1-02",
+      "cat": "aritmetica",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 91.38999999999942,
+      "response_preview": "Passo 1: Maria deu 1/4 da Coleção para Joao.\n1/4 de 120 = 120 * 1/4 = 30\nA Maria passou 30 figurinhas para Joao.\n\nPasso 2: passar 30 figurinhas para Joao, a Maria tem:\n120 - 30 = 90\nA Maria passou 30 "
+    },
+    {
+      "id": "ENEM-PROB-01",
+      "cat": "probabilidade",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 195.32800000000134,
+      "response_preview": "Passo 1: Cálculo do total de bolas na urna.\nTotal = 3 (vermelhas) + 5 (azuis) + 2 (vermelhas) = 10 bolas.\n\nPasso 2: Cálculo da probabilidade de extrair uma bola azul.\nP(azul) = N° de bolas azuis / Tot"
+    },
+    {
+      "id": "ENEM-JUR-01",
+      "cat": "algebra",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 171.5789999999979,
+      "response_preview": "Passo 1: C = 2000,00\nPasso 2: i = 5% = 0,05\nPasso 3: t = 6\nPasso 4: M = C(1 + it) = 2000(1 + 0,05 * 6) = 2000(1 + 0,3) = 2000 * 1,3 = 2600.\n\nFinal answer: D"
+    },
+    {
+      "id": "ENEM-EQ-01",
+      "cat": "algebra",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 40.75,
+      "response_preview": "Passo 1: Seja x a idade do filho. A altitude dofather é 3x.\nPasso 2: A soma das altitudes é x + 3x = 4x.\nPasso 3: Dado que 4x = 52, obtemos x = 52/4 = 13.\nFinal answer: C (13)"
+    },
+    {
+      "id": "ENEM-GEO-02",
+      "cat": "geometria",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 56.81300000000192,
+      "response_preview": "Passo 1: Cálculo do volume da caixinha em m³.\nV = 2 m * 1,5 m * 1 m = 3 m³.\n\nPasso 2: passar o volume do paralelepipedo de m³ para L.\n1 m³ = 1000 L\n3 m³ = 3 * 1000 L = 3000 L.\n\nFinal answer: D (3000)"
+    },
+    {
+      "id": "OBMEP-N2-01",
+      "cat": "algebra",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 59.43699999999808,
+      "response_preview": "Passo 1: Fatorar a equação.\nx^2 - 7x + 12 = (x - 3)(x - 4) = 0\n\nPasso 2: passar a equação para termos termos independentes.\nx - 3 = 0\nx - 4 = 0\n\nPasso 3: passar termos independentes.\nx = 3\nx = 4\n\nPass"
+    }
+  ]
+}

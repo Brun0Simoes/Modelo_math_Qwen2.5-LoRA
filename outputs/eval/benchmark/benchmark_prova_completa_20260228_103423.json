@@ -1,0 +1,321 @@
+{
+  "accuracy_pct": 83.3,
+  "correct": 25,
+  "total": 30,
+  "by_level": {
+    "medio": {
+      "correct": 1,
+      "total": 1
+    },
+    "alto": {
+      "correct": 16,
+      "total": 18
+    },
+    "olimpico": {
+      "correct": 8,
+      "total": 11
+    }
+  },
+  "results": [
+    {
+      "id": "E23-136",
+      "cat": "estatistica",
+      "nivel": "medio",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 69.6,
+      "response": "Passo 1: A mediana é o termo central de um conjunto de dados. Primeiramente, é importante passar os termos em ordem crescente. Aprezinho: 1200, 1500, 1500, 2000, 2500, 3000, 8000. O termo central é 2000. Portanto, a mediana é 2000.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-138",
+      "cat": "funcoes",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 179.6,
+      "response": "Passo 1: A equação do vértice de uma função quadrática é x = -b/2a. Dado que o vértice é no ponto (2, -1), temos -b/2a = 2. Portanto, b = -4a.\n\nPasso 2: A função passa pelo ponto (0, 3), então f(0) = c = 3.\n\nPasso 3: Substituindo b = -4a e c = 3 na equação f(x) = ax^2 + bx + c, obtemos f(x) = ax^2 - 4ax + 3.\n\nPasso 4: O vértice (2, -1) é um ponto da curva, então f(2) = 4a - 8a + 3 = -1. Simplificando, obtemos -4a + 3 = -1, o que nos fornece a = 1.\n\nPasso 5: Substituindo a = 1 na equação f(x) = a"
+    },
+    {
+      "id": "E23-140",
+      "cat": "geometria",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 71.1,
+      "response": "Passo 1: De fato, é um cone reto. Portanto, é formado por um triângulo reto.\nPasso 2: A geratriz é a hipotenuse do triângulo reto.\nPasso 3: Pelo Teorema de Pitágoras: g^2 = 6^2 + 8^2 = 36 + 64 = 100.\nPasso 4: g = \\sqrt{100} = 10 cm.\nFinal answer: C"
+    },
+    {
+      "id": "E23-142",
+      "cat": "trigonometria",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 120.4,
+      "response": "Passo 1: identificar os lados do triangulo. A hipotenuse (h) é 10 cm e um cateta (c) é 6 cm. O outro cateta (c') é incrito no triangulo e é founda com o Teorema de Pitágoras: h² = c² + c'². Substituios: 10² = 6² + c'². 100 = 36 + c'². c'² = 64. c' = 8 cm.\n\nPasso 2: o seno de um angulo num triangulo retangulo é a razão do cateta oposto ao ângulo com a hipotenuse. Nesse caso, o cateta oposto é 6 cm e a hipotenuse é 10 cm. Portanto, o seno do ângulo é 6/10 = 0,6.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-144",
+      "cat": "combinatoria",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 84.0,
+      "response": "Passo 1: A formula para combinações é C(n, k) = n! / (k! * (n - k)!), onde n é o total de termos e k é o termo a ser选择.\nPasso 2: Substituindo n = 6 e k = 2, temos C(6, 2) = 6! / (2! * (6 - 2)!) = 6! / (2! * 4!) = (6 * 5 * 4!) / (2 * 1 * 4!) = 30 / 2 = 15.\nFinal answer: C (15)"
+    },
+    {
+      "id": "E23-146",
+      "cat": "logaritmos",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 28.5,
+      "response": "Passo 1: log2(x) = 5\nPasso 2: x = 2^5\nPasso 3: x = 32\nFinal answer: B"
+    },
+    {
+      "id": "E23-148",
+      "cat": "PA_PG",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 110.5,
+      "response": "Passo 1: A formula para a soma dos primeiros termos de uma PG é S_n = a * (1 - r^n) / (1 - r), onde a é o termo 1, r é a razao e n é o termo final.\nPasso 2: Substituindo os termos do problem (a = 3, r = 2, n = 6) na formula, temos S_6 = 3 * (1 - 2^6) / (1 - 2).\nPasso 3: Calculando 2^6 = 64.\nPasso 4: Substituindo 64 na formula, temos S_6 = 3 * (1 - 64) / (1 - 2) = 3 * (-63) / (-1) = 189.\nFinal answer: D"
+    },
+    {
+      "id": "E23-150",
+      "cat": "geometria_analitica",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 80.4,
+      "response": "Passo 1: A formula para a distancia d entre dois pontos A(x1, y1) e B(x2, y2) é:\nd = √[(x2 - x1)² + (y2 - y1)²]\n\nPasso 2: Substituindo os pontos A(1, 2) e B(4, 6) na formula:\nd = √[(4 - 1)² + (6 - 2)²]\nd = √[3² + 4²]\nd = √[9 + 16]\nd = √25\nd = 5\n\nFinal answer: C"
+    },
+    {
+      "id": "E23-152",
+      "cat": "matrizes",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 34.3,
+      "response": "Passo 1: passar para o formulário.\nPasso 2: 2.4 - 1.3 = 8 - 3 = 5.\nPasso 3: Resposta: B.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-154",
+      "cat": "probabilidade",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": null,
+      "is_correct": false,
+      "time": 481.5,
+      "response": "Passo 1: passo 2: passo 3: passo 4: passo 5: passo 6: passo 7: passo 8: passo 9: passo 10: passo 11: passo 12: passo 13: passo 14: passo 15: passo 16: passo 17: passo 18: passo 19: passo 20: passo 21: passo 22: passo 23: passo 24: passo 25: passo 26: passo 27: passo 28: passo 29: passo 30: passo 31: passo 32: passo 33: passo 34: passo 35: passo 36: passo 37: passo 38: passo 39: passo 40: passo 41: passo 42: passo 43: passo 44: passo 45: passo 46: passo 47: passo 48: passo 49: passo 50: passo 51:"
+    },
+    {
+      "id": "E23-156",
+      "cat": "funcoes",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 90.6,
+      "response": "Passo 1: Substitui x = 0 em f(x) = 3^x.\nf(0) = 3^0 = 1.\n\nPasso 2: Substitui x = 1 em f(x) = 3^x.\nf(1) = 3^1 = 3.\n\nPasso 3: Substitui x = 2 em f(x) = 3^x.\nf(2) = 3^2 = 9.\n\nPasso 4: some f(0), f(1) e f(2).\nf(0) + f(1) + f(2) = 1 + 3 + 9 = 13.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-158",
+      "cat": "geometria",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 133.8,
+      "response": "Passo 1: Calcular o Perimeter da base.\nO hexagono é um polígono com 6 lados. O Perimeter (P) é a soma das medidas de todos os lados.\nP = 6 * 4 = 24 cm.\n\nPasso 2: Calcular a Area da base.\nA base é um hexagono regular. A Fórmula para a Area (A) de um hexagono regular com arestas de medida 'a' é:\nA = (3 * sqrt(3) / 2) * a^2.\nA = (3 * sqrt(3) / 2) * 4^2 = (3 * sqrt(3) / 2) * 16 = 24 * sqrt(3) cm^2.\n\nPasso 3: Calcular a Area Lateral.\nA Area Lateral (A_L) de um prisma é dada por:\nA_L = Perimeter * Alt"
+    },
+    {
+      "id": "E23-160",
+      "cat": "algebra",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 36.4,
+      "response": "Passo 1: A soma dos quadrados das raizes é dada por (1^2 + 2^2 + 3^2) = 1 + 4 + 9 = 14.\nFinal answer: C"
+    },
+    {
+      "id": "E23-162",
+      "cat": "financeira",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 56.4,
+      "response": "Passo 1: Fórmula do juro compostos: M = P(1 + i)^n\nPasso 2: Substituios: M = 10000(1 + 0,1)^2 = 10000(1,1)^2 = 10000(1,21) = 12100\nFinal answer: B"
+    },
+    {
+      "id": "E23-164",
+      "cat": "probabilidade",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 79.0,
+      "response": "Passo 1: A probabilidade de extraímos uma bola branca no primeirax extraímos 4 bolas brancas em 10 bolas. A probabilidade é 4/10 = 2/5.\nPasso 2: A probabilidade de extraímos uma bola branca no segundo passo, sem ter devolto a primeirax é 3/9 = 1/3.\nPasso 3: A probabilidade de extrair duas bolas brancas é (2/5) * (1/3) = 2/15.\nFinal answer: D"
+    },
+    {
+      "id": "OBM-F2-01",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 32.9,
+      "response": "Passo 1: A = 4 e B = 3 (ou vice versa).\nPasso 2: A^2 + B^2 = 16 + 9 = 25.\nFinal answer: C"
+    },
+    {
+      "id": "OBM-F2-02",
+      "cat": "combinatoria",
+      "nivel": "olimpico",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 43.3,
+      "response": "Passo 1: O algarismo das centenas é 5.\nPasso 2: O algarismo das dezenas é 4.\nPasso 3: O algarismo das units é 3.\nTotal: 5.4.3 = 60.\n\nFinal answer: D"
+    },
+    {
+      "id": "OBM-F2-03",
+      "cat": "geometria",
+      "nivel": "olimpico",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 84.9,
+      "response": "Passo 1: identificar o tipico\nPasso 2: 5, 12, 13 e 3, 4, 5 (semelhante)\nPasso 3: 5x3=15, 12x4=48, 13x5=65 (sempre 15, 48, 65)\nPasso 4: 15x48/2=360/2=180 (sempre 180/2)\nPasso 5: 180/2=90 (sempre 90)\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-04",
+      "cat": "teoria_numeros",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "B",
+      "is_correct": false,
+      "time": 50.2,
+      "response": "Passo 1: 2^10 = 1024\nPasso 2: 1024/7 = 146,28571428571428\nPasso 3: 1024 - (146x7) = 1024 - 1022 = 2\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-05",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 76.6,
+      "response": "Passo 1: x + y = 10\nPasso 2: y = 10 - x\nPasso 3: x*y = x*(10 - x) = 10x - x^2\nPasso 4: 10x - x^2 = 25 + (5^2 - x^2) = 25 + (5 - x)(5 + x)\nPasso 5: O maximo de x*y e 25, o que é atingido 当 x = 5 e y = 5.\n\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-06",
+      "cat": "geometria",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": null,
+      "is_correct": false,
+      "time": 481.4,
+      "response": "Passo 1: passar para um triângulo retângulo.\nPasso 2: passar para um triângulo retângulo.\nPasso 3: passar para um triângulo retângulo.\nPasso 4: passar para um triângulo retângulo.\nPasso 5: passar para um triângulo retângulo.\nPasso 6: passar para um triângulo retângulo.\nPasso 7: passar para um triângulo retângulo.\nPasso 8: passar para um triângulo retângulo.\nPasso 9: passar para um triângulo retângulo.\nPasso 10: passar para um triângulo retângulo.\nPasso 11: passar para um triângulo retângulo.\nPas"
+    },
+    {
+      "id": "OBM-F2-07",
+      "cat": "teoria_numeros",
+      "nivel": "olimpico",
+      "correct_letter": "A",
+      "answered": "A",
+      "is_correct": true,
+      "time": 61.6,
+      "response": "Passo 1: Fatorar 360.\n360 = 2^3 * 3^2 * 5^1\n\nPasso 2: A formula para finding o número de divisores de um número é (a+1)(b+1)(c+1)... onde a, b, c, ... são os exponentes dos fatores primos.\nNesse caso, a = 3, b = 2, c = 1.\n(3+1)(2+1)(1+1) = 4 * 3 * 2 = 24\n\nFinal answer: A (24)"
+    },
+    {
+      "id": "OBM-F2-08",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 97.5,
+      "response": "Passo 1: 1/1*2 = 1 - 1/2\nPasso 2: 1/2*3 = 1/2 - 1/3\nPasso 3: 1/3*4 = 1/3 - 1/4\n...\nPasso 99: 1/99*100 = 1/99 - 1/100\n\nA soma é:\n(1 - 1/2) + (1/2 - 1/3) + (1/3 - 1/4) + ... + (1/99 - 1/100)\n\nTodas as termos se cancelam, exceto o 1 no começo e -1/100 no final.\n\nA soma é: 1 - 1/100 = 99/100\n\nFinal answer: D"
+    },
+    {
+      "id": "OBM-F2-09",
+      "cat": "geometria",
+      "nivel": "olimpico",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 66.3,
+      "response": "Passo 1: A area do circulo é pi * r^2 = 3,14 * 25 = 78,5.\nPasso 2: O quadrado tem um lado de 10 (raio * 2), então a area do quadrado é 100.\nPasso 3: A area da regiao é a area do quadrado减 a area do circulo,即 100 - 78,5 = 21,5.\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-10",
+      "cat": "combinatoria",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "B",
+      "is_correct": false,
+      "time": 89.4,
+      "response": "Passo 1: A distribuição de bolas em caixas é umproblema de distribuição com reais. A fórmula para distribuições com reais é (n + r - 1) C (r - 1), com n = 4 (caixas) e r = 3 (bolas).\nPasso 2: Substituindo n = 4 e r = 3 na fórmula, temos (4 + 3 - 1) C (3 - 1) = 6 C 2.\nPasso 3: Calculando 6 C 2, temos 6! / (2! * 4!) = 15.\nFinal answer: B"
+    },
+    {
+      "id": "ADV-01",
+      "cat": "funcoes",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": null,
+      "is_correct": false,
+      "time": 478.4,
+      "response": "Passo 1: Fatorar a expressão do interior da modular.\nf(x) = |x^2 - 4| = |(x + 2)(x - 2)|\n\nPasso 2: Passar a modular para o outante.\n(1) (x + 2)(x - 2) = 0\n(2) (x + 2)(x - 2) = 0\n\nPasso 3: passar as equações do passo 2 para o outante.\n(1) x + 2 = 0\nx = -2\n(2) x - 2 = 0\nx = 2\n\nPasso 4: passar as equações do passo 3 para o interior.\n(1) (x + 2)(x - 2) = 0\n(2) (x + 2)(x - 2) = 0\n\nPasso 5: passar as equações do passo 4 para o outante.\n(1) (x + 2)(x - 2) = 0\n(2) (x + 2)(x - 2) = 0\n\nPasso 6: passar as "
+    },
+    {
+      "id": "ADV-02",
+      "cat": "trigonometria",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 47.6,
+      "response": "Passo 1: Substituios os valores de sen(30) e cos(60) na expressão.\nsen(30) + cos(60) = 0,5 + 0,5\n\nPasso 2: Calcula a soma.\n0,5 + 0,5 = 1\n\nFinal answer: C"
+    },
+    {
+      "id": "ADV-03",
+      "cat": "PA_PG",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 86.9,
+      "response": "Passo 1: A formula do termo n do uma PA é an = a1 + (n-1)r, onde a1 é o termo 1 e r é a razao.\nPasso 2: A5 = a1 + 4r = 15\nPasso 3: A10 = a1 + 9r = 30\nPasso 4: Subtraímos as equações: (a1 + 9r) - (a1 + 4r) = 30 - 15\nPasso 5: 5r = 15\nPasso 6: r = 15 / 5 = 3\nFinal answer: B"
+    },
+    {
+      "id": "ADV-04",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 35.3,
+      "response": "Passo 1: P(x) = x^3 - 3x^2 + 2x - 1\nPasso 2: A + B + C = - 3 / 1 = 3\nFinal answer: C"
+    },
+    {
+      "id": "ADV-05",
+      "cat": "geometria_analitica",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 137.5,
+      "response": "Passo 1: A equação da circunferência comcenter (a, b) e raio r é (x - a)^2 + (y - b)^2 = r^2. Dado que ocenter é (2, 3) e o raio é 4, substituamos tais valores na equação:\n(x - 2)^2 + (y - 3)^2 = 4^2\n\nPasso 2: Simplificamos a equação:\n(x - 2)^2 + (y - 3)^2 = 16\n\nPasso 3: A equação é now (x - 2)^2 + (y - 3)^2 = 16, o que é congruente com a formula (x - a)^2 + (y - b)^2 = r^2. Portanto, a = 2, b = 3 e r^2 = 16.\n\nPasso 4: Calculamos a + b + r^2:\na + b + r^2 = 2 + 3 + 16 = 21\n\nFinal answer: D"
+    }
+  ]
+}

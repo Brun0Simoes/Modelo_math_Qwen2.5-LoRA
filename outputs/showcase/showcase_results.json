@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ITA-01",
+    "title": "ITA 2023 - Algebra Avancada",
+    "category": "Algebra",
+    "difficulty": "ITA/IME",
+    "problem": "Se x e y sao numeros reais positivos tais que x + y = 10 e x*y = 21, determine o valor de x^3 + y^3.",
+    "expected": "370",
+    "model_response": "Passo 1: Usar a identidade x^3 + y^3 = (x+y)(x^2 - xy + y^2).\n\nPasso 2: x^2 + y^2 = (x+y)^2 - 2xy = 100 - 42 = 58.\n\nPasso 3: x^3 + y^3 = 10(58 - 21) = 10*37 = 370.\n\nFinal answer: 370",
+    "time_seconds": 42.2,
+    "status": "CORRETO"
+  },
+  {
+    "id": "OBMEP-F3-01",
+    "title": "OBMEP Fase 3 - Teoria dos Numeros",
+    "category": "Teoria dos Numeros",
+    "difficulty": "Olimpico",
+    "problem": "Encontre o resto da divisao de 7^2023 por 11.",
+    "expected": "2",
+    "model_response": "Passo 1: Calcular potencias de 7 modulo 11.\n7^1 = 7 mod 11 = 7\n7^2 = 49 mod 11 = 5\n7^3 = 7*5 mod 11 = 35 mod 11 = 2\n7^4 = 7*2 mod 11 = 14 mod 11 = 3\n7^5 = 7*3 mod 11 = 21 mod 11 = 10 = -1 mod 11\n7^6 = 7*(-1) mod 11 = -7 mod 11 = 4\n7^7 = 7*4 mod 11 = 28 mod 11 = 6\n7^8 = 7*6 mod 11 = 42 mod 11 = 9\n7^9 = 7*9 mod 11 = 63 mod 11 = 8\n7^10 = 7*8 mod 11 = 56 mod 11 = 1.\n\nPasso 2: O ciclo se repete a cada 10 potencias.\n2023 = 10k + r, com k Z, r [0,9].\n2023 mod 10 = 3.\n7^2023 mod 11 = 7^3 mod 11 = 2.\n\nFinal answer: 2",
+    "time_seconds": 120.8,
+    "status": "CORRETO"
+  },
+  {
+    "id": "UNICAMP-01",
+    "title": "Unicamp 2023 - Logaritmos",
+    "category": "Logaritmos",
+    "difficulty": "Vestibular Dificil",
+    "problem": "Se log_2(x) + log_4(x) + log_8(x) = 11, determine o valor de x.",
+    "expected": "64",
+    "model_response": "Passo 1: Escrever todos oslogaritmos com a mesma base.\nlog_4(x) = log_2(x)/log_2(4) = log_2(x)/2.\nlog_8(x) = log_2(x)/log_2(8) = log_2(x)/3.\n\nPasso 2: Substituir na equacao.\nlog_2(x) + log_2(x)/2 + log_2(x)/3 = 11.\n(6log_2(x) + 3log_2(x) + 2log_2(x))/6 = 11.\n11log_2(x)/6 = 11.\nlog_2(x) = 6.\nx = 2^6 = 64.\n\nFinal answer: 64",
+    "time_seconds": 70.8,
+    "status": "CORRETO"
+  },
+  {
+    "id": "ITA-02",
+    "title": "ITA - Numeros Complexos",
+    "category": "Numeros Complexos",
+    "difficulty": "ITA/IME",
+    "problem": "Calcule o modulo do numero complexo z = (2 + 3i)^2 + (1 - i)^3. Expresse o resultado na forma simplificada.",
+    "expected": "",
+    "model_response": "Passo 1: Calcular (2 + 3i)^2.\n(2 + 3i)^2 = 4 + 12i + 9i^2 = 4 + 12i - 9 = -5 + 12i.\n\nPasso 2: Calcular (1 - i)^3.\n(1 - i)^2 = 1 - 2i + i^2 = 1 - 2i - 1 = -2i.\n(1 - i)^3 = (1 - i)(-2i) = -2i + 2i^2 = -2i - 2 = -2 - 2i.\n\nPasso 3: Somar os dois results.\nz = (-5 + 12i) + (-2 - 2i) = -7 + 10i.\n\nPasso 4: Calcular o modulo.\n|z| = sqrt((-7)^2 + 10^2) = sqrt(49 + 100) = sqrt(149).\n\nFinal answer: sqrt(149)",
+    "time_seconds": 99.1,
+    "status": "ABERTO"
+  },
+  {
+    "id": "OBMEP-F3-02",
+    "title": "OBMEP Fase 3 - Combinatoria Avancada",
+    "category": "Combinatoria",
+    "difficulty": "Olimpico",
+    "problem": "De quantas maneiras podemos pintar os vertices de um hexagono regular com 3 cores disponiveis, de modo que vertices adjacentes tenham cores diferentes? (Considere rotacoes como pinturas distintas)",
+    "expected": "246",
+    "model_response": "Passo 1: Pintar o primeiro vertice: 3 opcoes.\nPintar o segundo (adjacentesao): 2 opcoes.\n\nPasso 2: Para o terceiro: se o primeiro e da ida do segundo, 2 opcoes. Se o primeiro e da mesma cor do segundo, 1 opcao.\nSe o primeiro e da ida do segundo: 2 x 2 = 4.\nSe o primeiro e da mesm cor do segundo: 1 x 1 = 1.\nTotal para o terceiro: 5 opcoes.\n\nPasso 3: Para o quarto: se o terceiro e da ida do segundo, 2 opcoes. Se o terceiro e da mesm cor do segundo, 1 opcao.\nSe o terceiro e da ida do segundo: 2 x 2 = 4.\nSe o terceiro e da mesm cor do segundo: 1 x 1 = 1.\nTotal para o quarto: 5 opcoes.\n\nAnalogamente, para o quinto: 5 opcoes.\nPara o sexto: 5 opcoes.\n\nTotal = 3 x 2 x 5 x 5 x 5 x 5 = 750.\n\nFinal answer: 750",
+    "time_seconds": 120.7,
+    "status": "VERIFICAR"
+  },
+  {
+    "id": "FUVEST-01",
+    "title": "Fuvest 2023 - Funcoes",
+    "category": "Funcoes",
+    "difficulty": "Vestibular Dificil",
+    "problem": "Seja f(x) = x^2 - 4x + 3. Determine todos os valores de x para os quais f(f(x)) = 3.",
+    "expected": "",
+    "model_response": "Passo 1: f(f(x)) = 3 se f(x) = 1 ou f(x) = 3.\n\nPasso 2: f(x) = 1: x^2 - 4x + 3 = 1 -> x^2 - 4x + 2 = 0.\nDelta = 16 - 8 = 8 > 0, entao tem 2 raizes reais.\nx = (4 +- sqrt(8))/2 = (4 +- 2sqrt(2))/2 = 2 +- sqrt(2).\n\nPasso 3: f(x) = 3: x^2 - 4x + 3 = 3 -> x^2 - 4x = 0 -> x(x-4) = 0.\nentao x = 0 ou x = 4.\n\nPasso 4: Combinando, x = 0, 2-sqrt(2), 2+sqrt(2), 4.\n\nFinal answer: 4",
+    "time_seconds": 89.8,
+    "status": "ABERTO"
+  },
+  {
+    "id": "ITA-03",
+    "title": "ITA - Inequacoes com Modulo",
+    "category": "Algebra",
+    "difficulty": "ITA/IME",
+    "problem": "Resolva a inequacao |x^2 - 5x + 4| < 2. Apresente o conjunto solucao.",
+    "expected": "",
+    "model_response": "Passo 1: |x^2 - 5x + 4| < 2 = -2 < x^2 - 5x + 4 < 2.\n\nPasso 2: x^2 - 5x + 4 > -2 -> x^2 - 5x + 6 > 0 -> (x-2)(x-3) > 0.\nSolucao: x < 2 ou x > 3.\n\nPasso 3: x^2 - 5x + 4 < 2 -> x^2 - 5x + 2 < 0.\nDelta = 25 - 8 = 17, raizes: x = (5pm sqrt(17))/2.\nSolucao: (5-sqrt(17))/2 < x < (5+sqrt(17))/2.\n\nPasso 4: Intersecao:\n(5-sqrt(17))/2 ≈ 0.56, (5+sqrt(17))/2 ≈ 4.44.\nSabendo que x < 2 ou x > 3, a interseção é:\n0.56 < x < 2 ou 3 < x < 4.44.\n\nFinal answer: (0.56, 2) U (3, 4.44)",
+    "time_seconds": 122.5,
+    "status": "ABERTO"
+  },
+  {
+    "id": "OBMEP-F3-03",
+    "title": "OBMEP Fase 3 - Geometria",
+    "category": "Geometria",
+    "difficulty": "Olimpico",
+    "problem": "Em um triangulo ABC, o angulo A mede 60 graus, AB = 8 e AC = 5. Calcule o comprimento de BC usando a lei dos cossenos.",
+    "expected": "7",
+    "model_response": "Passo 1: Lei dos Cossenos: BC² = AB² + AC² - 2(AB)(AC)(cosA).\n\nPasso 2: cos60 = 1/2.\n\nBC² = 64 + 25 - 2(8)(5)(1/2)\nBC² = 89 - 40 = 49.\n\nPasso 3: BC = √49 = 7.\n\nFinal answer: 7",
+    "time_seconds": 41.6,
+    "status": "CORRETO"
+  },
+  {
+    "id": "UNICAMP-02",
+    "title": "Unicamp - Sequencias",
+    "category": "PA/PG",
+    "difficulty": "Vestibular Dificil",
+    "problem": "A sequencia definida por a_1 = 1 e a_(n+1) = 2*a_n + 1 para n >= 1. Encontre uma formula fechada para a_n e calcule a_10.",
+    "expected": "1023",
+    "model_response": "Passo 1: Verificar os primeiros termos.\na_1 = 1\na_2 = 2*1 + 1 = 3\na_3 = 2*3 + 1 = 7\na_4 = 2*7 + 1 = 15\n\nPasso 2: Conjectura: a_n = 2^n - 1.\n\nPasso 3: Provar por inducao.\nBase: n=1 -> 2^1 - 1 = 1 (correto).\n\nHipotese: a_n = 2^n - 1.\n\n passing: a_(n+1) = 2*a_n + 1 = 2*(2^n - 1) + 1 = 2^(n+1) - 2 + 1 = 2^(n+1) - 1.\n\nFinal answer: a_10 = 2^10 - 1 = 1024 - 1 = 1023",
+    "time_seconds": 90.5,
+    "status": "CORRETO"
+  },
+  {
+    "id": "ITA-04",
+    "title": "ITA - Probabilidade Condicional",
+    "category": "Probabilidade",
+    "difficulty": "ITA/IME",
+    "problem": "Uma urna contem 5 bolas brancas e 3 pretas. Retira-se 2 bolas sem reposicao. Sabendo que pelo menos uma das bolas retiradas e branca, qual a probabilidade de ambas serem brancas?",
+    "expected": "10/25",
+    "model_response": "Passo 1: Calcular P(ambas | ao menos uma branca).\nP(ambas) = P(1 branca e 2nd branca) = (5/8)(4/7) = 20/56 = 5/14.\n\nPasso 2: P(maior ou igual a 1 branca) = 1 - P(nenhuma branca).\nP(nenhuma branca) = (3/8)(2/7) = 6/56 = 3/28.\nP(maior ou igual a 1 branca) = 1 - 3/28 = 25/28.\n\nPasso 3: P(ambas |ao menos uma branca) = P(ambas)/(P(maior ou igual a 1 branca)).\n= (5/14)/(25/28) = (5/14)(28/25) = 1/5.\n\nFinal answer: D (1/5)",
+    "time_seconds": 92.5,
+    "status": "VERIFICAR"
+  },
+  {
+    "id": "OBMEP-F3-04",
+    "title": "OBMEP Fase 3 - Polinomios",
+    "category": "Algebra",
+    "difficulty": "Olimpico",
+    "problem": "Seja P(x) = x^4 - 4x^3 + 6x^2 - 4x + 1. Fatore completamente P(x) e encontre todas as suas raizes.",
+    "expected": "x=1 (multiplicidade 4)",
+    "model_response": "Passo 1: Perocaso: P(x) e um polinomio especialista (binomio ao quadrado).\nP(x) = (x-1)^4.\n\nPasso 2: Verificação: (x-1)^4 = x^4 - 4x^3 + 6x^2 - 4x + 1. ✓\n\nPasso 3: Raiz P(x) = 0 -> (x-1)^4 = 0 -> x = 1 (comprimento multiplicity 4).\n\nFinal answer: x = 1",
+    "time_seconds": 50.6,
+    "status": "VERIFICAR"
+  },
+  {
+    "id": "UNICAMP-03",
+    "title": "Unicamp - Geometria Analitica",
+    "category": "Geometria Analitica",
+    "difficulty": "Vestibular Dificil",
+    "problem": "Determine a equacao da circunferencia que passa pelos pontos A(0,0), B(4,0) e C(0,6). Encontre o centro e o raio.",
+    "expected": "centro (2,3), raio sqrt(13)",
+    "model_response": "Passo 1: Forma generalizada: (x-h)^2 + (y-k)^2 = r^2.\n\nPasso 2: Substituir A(0,0): h^2 + k^2 = r^2.\nSubstituir B(4,0): (4-h)^2 + k^2 = r^2.\nSubstituir C(0,6): h^2 + (6-k)^2 = r^2.\n\nPasso 3: (4-h)^2 + k^2 = h^2 + k^2 -> 16 - 8h + h^2 = h^2 -> h = 2.\nh^2 + (6-k)^2 = h^2 + k^2 -> 36 - 12k + k^2 = k^2 -> k = 3.\n\nPasso 4: h^2 + k^2 = r^2 -> 4 + 9 = r^2 -> r = sqrt(13).\n\nPasso 5: Center (2,3), radius sqrt(13).\nEquation: (x-2)^2 + (y-3)^2 = 13.\n\nFinal answer: (2,3) e sqrt(13)",
+    "time_seconds": 112.8,
+    "status": "VERIFICAR"
+  },
+  {
+    "id": "IME-01",
+    "title": "IME - Calculo Diferencial",
+    "category": "Calculo",
+    "difficulty": "ITA/IME",
+    "problem": "Determine o valor maximo e minimo da funcao f(x) = x^3 - 3x^2 + 4 no intervalo [-1, 3].",
+    "expected": "max=4 em x=0, min=0 em x=2",
+    "model_response": "Passo 1: Pela rera, os pontos de inflexao occuram onde f'(x) = 0.\nf'(x) = 3x^2 - 6x = 3x(x-2).\n3x(x-2) = 0 -> x = 0 ou x = 2.\n\nPasso 2: f(0) = 4, f(2) = 0, f(-1) = 0, f(3) = 4.\n\nPasso 3: max = 4 (e occursso em x = -1 e x = 3), min = 0 (e occursso em x = 2).\n\nFinal answer: max = 4, min = 0",
+    "time_seconds": 64.7,
+    "status": "VERIFICAR"
+  },
+  {
+    "id": "OBMEP-F3-05",
+    "title": "OBMEP Fase 3 - Congruencia Modular",
+    "category": "Teoria dos Numeros",
+    "difficulty": "Olimpico",
+    "problem": "Encontre o ultimo algarismo (unidade) de 3^2024 + 7^2024.",
+    "expected": "2",
+    "model_response": "Passo 1: identificar pattern de last digits.\n- 3^n: 3, 9, 7, 1, 3, 9, 7, 1, ...\n- 7^n: 7, 9, 3, 1, 7, 9, 3, 1, ...\n\nPasso 2: 2024 mod 4 = 0, entao:\n- Last digit of 3^2024 = 1\n- Last digit of 7^2024 = 1\n\nPasso 3: Last digit of 3^2024 + 7^2024 = 1 + 1 = 2.\n\nFinal answer: 2",
+    "time_seconds": 65.7,
+    "status": "CORRETO"
+  },
+  {
+    "id": "ITA-05",
+    "title": "ITA - Matrizes e Determinantes",
+    "category": "Matrizes",
+    "difficulty": "ITA/IME",
+    "problem": "Seja A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]]. Calcule o determinante de A.",
+    "expected": "1",
+    "model_response": "Passo 1: expandir por first row.\ndet(A) = 1*|(1,4)-(6,0)| - 2*|(0,4)-(5,0)| + 3*|(0,1)-(5,6)|\n= 1*(1*0-4*6) - 2*(0*0-4*5) + 3*(0*6-1*5)\n= 1*(-24) - 2*(-20) + 3*(-5)\n= -24 + 40 - 15\n= 1.\n\nFinal answer: 1",
+    "time_seconds": 55.1,
+    "status": "CORRETO"
+  }
+]

@@ -1,0 +1,321 @@
+{
+  "accuracy_pct": 96.7,
+  "correct": 29,
+  "total": 30,
+  "by_level": {
+    "medio": {
+      "correct": 1,
+      "total": 1
+    },
+    "alto": {
+      "correct": 17,
+      "total": 18
+    },
+    "olimpico": {
+      "correct": 11,
+      "total": 11
+    }
+  },
+  "results": [
+    {
+      "id": "E23-136",
+      "cat": "estatistica",
+      "nivel": "medio",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 68.9,
+      "response": "Passo 1: A mediana e o valor central do conjunto de dados quando estao em ordem crescente. Como temos 7 dados ( odd number), a mediana e o valor da 4o position.\n\nPasso 2: O conjunto de dados em ordem crescente e: 1200, 1500, 1500, 2000, 2500, 3000, 8000.\nA mediana e o valor da 4o position: 2000.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-138",
+      "cat": "funcoes",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 58.1,
+      "response": "Passo 1: Forma canonica: f(x) = a(x-2)^2 - 1.\n\nPasso 2: f(0) = 3: a(0-2)^2 - 1 = 3 -> 4a = 4 -> a = 1.\n\nPasso 3: f(x) = (x-2)^2 - 1.\n\nPasso 4: f(4) = (4-2)^2 - 1 = 4 - 1 = 3.\n\nFinal answer: D"
+    },
+    {
+      "id": "E23-140",
+      "cat": "geometria",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 43.7,
+      "response": "Passo 1: A geratriz g e o hipotenusa de um triangulo retangulo com catetos r e h.\ng = sqrt(r^2 + h^2) = sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 cm.\n\nFinal answer: C (10)"
+    },
+    {
+      "id": "E23-142",
+      "cat": "trigonometria",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "C",
+      "is_correct": false,
+      "time": 49.8,
+      "response": "Passo 1: Pelo Teorema de Pitágoras: h² = a² + b².\n10² = 6² + b²\n100 = 36 + b²\nb² = 64\nb = 8 cm.\n\nPasso 2: Seno = cateto oposto / hipotenusa = 8/10 = 0,8.\n\nFinal answer: C (0,8)"
+    },
+    {
+      "id": "E23-144",
+      "cat": "combinatoria",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 35.6,
+      "response": "Passo 1: Combinacao de 6 taken 2 a 2 (ordem nao importa).\nC(6,2) = 6! / (2! x 4!) = (6 x 5) / (2 x 1) = 15.\n\nFinal answer: C"
+    },
+    {
+      "id": "E23-146",
+      "cat": "logaritmos",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 24.6,
+      "response": "Passo 1: log2(x) = 5 se e somente se x = 2^5.\n\nPasso 2: 2^5 = 32.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-148",
+      "cat": "PA_PG",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 62.7,
+      "response": "Passo 1: Termos da PG: 3, 6, 12, 24, 48, 96.\n\nPasso 2: Soma = 3(1 + 2 + 4 + 8 + 16 + 32) = 3(63) = 189.\n\nAlternativamente: S_n = a(q^n - 1)/(q-1) = 3(2^6 - 1)/(2-1) = 3(64-1) = 189.\n\nFinal answer: D"
+    },
+    {
+      "id": "E23-150",
+      "cat": "geometria_analitica",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 38.8,
+      "response": "Passo 1: Distancia entre dois pontos: d = sqrt[(x2-x1)^2 + (y2-y1)^2].\n\nPasso 2: d = sqrt[(4-1)^2 + (6-2)^2] = sqrt[9 + 16] = sqrt[25] = 5.\n\nFinal answer: C"
+    },
+    {
+      "id": "E23-152",
+      "cat": "matrizes",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 31.3,
+      "response": "Passo 1: Determinante de uma matriz 2x2: |A| = ad - bc.\n\nPasso 2: |A| = (2)(4) - (1)(3) = 8 - 3 = 5.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-154",
+      "cat": "probabilidade",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 112.5,
+      "response": "Passo 1: Listar todos os pares (d1, d2) que somam 7.\n(1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 pares.\n\nPasso 2: Total de resultados possiveis = 6 x 6 = 36.\n\nPasso 3: P(soma=7) = 6/36 = 1/6.\n\nFinal answer: C"
+    },
+    {
+      "id": "E23-156",
+      "cat": "funcoes",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 127.2,
+      "response": "Passo 1: f(0) = 3^0 = 1.\nf(1) = 3^1 = 3.\nf(2) = 3^2 = 9.\n\nPasso 2: f(0) + f(1) + f(2) = 1 + 3 + 9 = 13.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-158",
+      "cat": "geometria",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 119.4,
+      "response": "Passo 1: Area do hexagono = 6 × (sqrt(3)/4) × 4² = 6 × 4 × sqrt(3) = 24sqrt(3) cm².\n\nPasso 2: Area lateral = perimetro × altura = 6 × 4 × 10 = 240 cm².\n\nFinal answer: D"
+    },
+    {
+      "id": "E23-160",
+      "cat": "algebra",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 44.1,
+      "response": "Passo 1: Por Vieta, soma das raizes = 6.\n\nPasso 2: soma de r1^2 + r2^2 + r3^2 = (r1+r2+r3)^2 - 2(r1*r2 + r1*r3 + r2*r3)\n= 6^2 - 2*11 = 36 - 22 = 14.\n\nFinal answer: C"
+    },
+    {
+      "id": "E23-162",
+      "cat": "financeira",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 35.5,
+      "response": "Passo 1: Fórmula dos juros compostos: M = C × (1+i)^t.\n\nPasso 2: M = 10000 × (1+0,1)^2 = 10000 × 1,21 = 12100.\n\nFinal answer: B"
+    },
+    {
+      "id": "E23-164",
+      "cat": "probabilidade",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 51.4,
+      "response": "Passo 1: Calcular a probabilidade da primeira bola ser branca.\nP1 = 4/10 = 2/5.\n\nPasso 2: Se a first bola e branca, sobra 3 bolas brancas de 9 total.\nP2 = 3/9 = 1/3.\n\nPasso 3: P(ambas) = P1 x P2 = (2/5) x (1/3) = 2/15.\n\nFinal answer: D"
+    },
+    {
+      "id": "OBM-F2-01",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 35.0,
+      "response": "Passo 1: Usar a identidade a^2 + b^2 = (a+b)^2 - 2ab.\n\nPasso 2: Substituir.\na^2 + b^2 = 7^2 - 2(12) = 49 - 24 = 25.\n\nFinal answer: C"
+    },
+    {
+      "id": "OBM-F2-02",
+      "cat": "combinatoria",
+      "nivel": "olimpico",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 45.1,
+      "response": "Passo 1: O primeiro algarismo (de 1 a 5) tem 5 opcoes.\nPasso 2: O segundo algarismo (diferente do primeiro) tem 4 opcoes.\nPasso 3: O terceiro algarismo (diferente dos dois primeiros) tem 3 opcoes.\n\nTotal = 5 x 4 x 3 = 60.\n\nFinal answer: D (60)"
+    },
+    {
+      "id": "OBM-F2-03",
+      "cat": "geometria",
+      "nivel": "olimpico",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 35.3,
+      "response": "Passo 1: Verificar se e triangulo retangulo.\n5^2 + 12^2 = 25 + 144 = 169 = 13^2. Sao retangulo.\n\nPasso 2: Area = (5 x 12)/2 = 30.\n\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-04",
+      "cat": "teoria_numeros",
+      "nivel": "olimpico",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 76.2,
+      "response": "Passo 1: Calcular potencias de 2 modulo 7.\n2^1 = 2 mod 7 = 2\n2^2 = 4 mod 7 = 4\n2^3 = 8 mod 7 = 1\n\nPasso 2: O ciclo se repete a cada 3: {2, 4, 1, 2, 4, 1, ...}\n\nPasso 3: 10 = 3 x 3 + 1, logo 2^10 mod 7 = 2^1 mod 7 = 2.\n\nVerificacao: 2^10 = 1024. 1024 / 7 = 146 com resto 6. Nao, 1024 mod 7 = 2.\n\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-05",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 37.3,
+      "response": "Passo 1: Pela desigualdade AM-GM: (x+y)/2 >= sqrt(xy).\n10/2 >= sqrt(xy)\n5 >= sqrt(xy)\n25 >= xy.\n\nPasso 2: A igualdade ocorre quando x = y = 5.\nxy_max = 5*5 = 25.\n\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-06",
+      "cat": "geometria",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 89.5,
+      "response": "Passo 1: Colocar coordinates.\nA = (0,0), B = (10,0), C = (10,10), D = (0,10)\nM e ponto medio de AB, entao M = (5,0).\n\nPasso 2: Vertices do triangulo CMD: C(10,10), M(5,0), D(0,10).\n\nPasso 3: Area = (1/2)|x_C(y_M - y_D) + x_M(y_D - y_C) + x_D(y_C - y_M)|\n= (1/2)|10(0-10) + 5(10-10) + 0(10-0)|\n= (1/2)|10(-10) + 5(0) + 0|\n= (1/2)|-100|\n= 50.\n\nFinal answer: C"
+    },
+    {
+      "id": "OBM-F2-07",
+      "cat": "teoria_numeros",
+      "nivel": "olimpico",
+      "correct_letter": "A",
+      "answered": "A",
+      "is_correct": true,
+      "time": 32.5,
+      "response": "Passo 1: Fatorar 360.\n360 = 2^3 x 3^2 x 5^1.\n\nPasso 2: Número de divisores = (3+1)(2+1)(1+1) = 4 x 3 x 2 = 24.\n\nFinal answer: A"
+    },
+    {
+      "id": "OBM-F2-08",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 51.4,
+      "response": "Passo 1: Usarfracao par�: 1/(n*(n+1)) = (1/n) - (1/(n+1)).\n\nPasso 2: A soma se torna telescopica:\n(1/1 - 1/2) + (1/2 - 1/3) + ... + (1/99 - 1/100)\n= 1 - 1/100\n= 99/100.\n\nFinal answer: D"
+    },
+    {
+      "id": "OBM-F2-09",
+      "cat": "geometria",
+      "nivel": "olimpico",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 44.3,
+      "response": "Passo 1: Area do circulo = pi × r² = 3,14 × 25 = 78,5.\n\nPasso 2: Lado do quadrado = 2 × 5 = 10, area do quadrado = 100.\n\nPasso 3: Area da regiao = 100 - 78,5 = 21,5.\n\nFinal answer: B"
+    },
+    {
+      "id": "OBM-F2-10",
+      "cat": "combinatoria",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 78.4,
+      "response": "Passo 1: This is a problem of distributing indistinguishable objects into distinguishable bins, which can be solved using the \"stars and bars\" theorem.\n\nPasso 2: The formula for the number of ways to distribute n indistinguishable objects into k distinguishable bins is given by C(n+k-1, k-1), where C is the binomial coefficient.\n\nPasso 3: Here, n = 3 (bolas) and k = 4 (caixas). So we need to calculate C(3+4-1, 4-1) = C(6, 3).\n\nPasso 4: C(6, 3) = 6! / (3! * 3!) = (6 × 5 × 4) / (3 × 2 × 1) = 20.\n\n"
+    },
+    {
+      "id": "ADV-01",
+      "cat": "funcoes",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 40.2,
+      "response": "Passo 1: f(x) = 0 implica |x^2 - 4| = 0.\n\nPasso 2: |x^2 - 4| = 0 se e somente se x^2 - 4 = 0.\nx^2 = 4, entao x = 2 ou x = -2.\n\nSao 2 raizes reais.\n\nFinal answer: B"
+    },
+    {
+      "id": "ADV-02",
+      "cat": "trigonometria",
+      "nivel": "alto",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 30.4,
+      "response": "Passo 1: sen(30) = 0,5 e cos(60) = 0,5.\n\nPasso 2: sen(30) + cos(60) = 0,5 + 0,5 = 1.\n\nFinal answer: C"
+    },
+    {
+      "id": "ADV-03",
+      "cat": "PA_PG",
+      "nivel": "alto",
+      "correct_letter": "B",
+      "answered": "B",
+      "is_correct": true,
+      "time": 45.5,
+      "response": "Passo 1: Na PA: a_n = a_1 + (n-1)r.\na5 = a1 + 4r = 15.\na10 = a1 + 9r = 30.\n\nPasso 2: Subtrair: (a1 + 9r) - (a1 + 4r) = 30 - 15.\n5r = 15.\nr = 3.\n\nFinal answer: B"
+    },
+    {
+      "id": "ADV-04",
+      "cat": "algebra",
+      "nivel": "olimpico",
+      "correct_letter": "C",
+      "answered": "C",
+      "is_correct": true,
+      "time": 40.5,
+      "response": "Passo 1: Por Vieta, para x^3 + px^2 + qx + r = 0:\nSoma das raizes = -p.\n\nPasso 2: Aqui o polinomio e x^3 - 3x^2 + 2x - 1 = 0.\nEntao a + b + c = -(-3) = 3.\n\nFinal answer: C"
+    },
+    {
+      "id": "ADV-05",
+      "cat": "geometria_analitica",
+      "nivel": "alto",
+      "correct_letter": "D",
+      "answered": "D",
+      "is_correct": true,
+      "time": 54.9,
+      "response": "Passo 1: A equacao da circunferencia com centero (a, b) e raio r e:\n(x - a)^2 + (y - b)^2 = r^2.\n\nPasso 2: Dado centero (2, 3) e raio 4:\na = 2, b = 3, r = 4.\n\nPasso 3: a + b + r^2 = 2 + 3 + 4^2 = 2 + 3 + 16 = 21.\n\nFinal answer: D"
+    }
+  ]
+}
